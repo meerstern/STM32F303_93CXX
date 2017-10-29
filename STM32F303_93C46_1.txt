@@ -1,0 +1,55 @@
+Configuration	STM32F303_94C46_1
+STM32CubeMX 	4.22.1
+Date	10/28/2017
+MCU	STM32F303K8Tx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SPI1	Full-Duplex Master	SPI1_MISO	PA6
+SPI1	Full-Duplex Master	SPI1_MOSI	PA7
+SPI1	Full-Duplex Master	SPI1_SCK	PA5
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+USART2	Asynchronous	USART2_RX	PA15
+USART2	Asynchronous	USART2_TX	PA2
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PF0 / OSC_IN*	RCC_OSC_IN	MCO
+8	PA2	USART2_TX	VCP_TX
+10	PA4	GPIO_Output	SPI1_CS
+11	PA5	SPI1_SCK	
+12	PA6	SPI1_MISO	
+13	PA7	SPI1_MOSI	
+23	PA13*	SYS_JTMS-SWDIO	SWDIO
+24	PA14*	SYS_JTCK-SWCLK	SWCLK
+25	PA15	USART2_RX	VCP_RX
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : STM32F303_94C46_1
+Project Folder : C:\Users\stern\workspace\STM32F303_94C46_1
+Toolchain / IDE : SW4STM32
+Firmware Package Name and Version : STM32Cube FW_F3 V1.9.0
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : Yes
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : Balanced Size/Speed
+
+
+
+
+
+
