@@ -1,0 +1,6 @@
+# STM32F303_93CXX
+EEPROM Driver for 93CXX with STM32 HAL.
+
+
+
+License - MIT
